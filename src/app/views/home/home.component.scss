@@ -1,0 +1,38 @@
+.div-home {
+  background-color: white;
+  .link-btn {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    height:27px;
+    padding: 6px;
+    margin: 14px 4px 0 0;
+    background-repeat: no-repeat;
+  }
+  .link-btn1 {
+    background-image: url("https://www.lutosa.com/intro-uk/css/1400/link1.jpg");
+  }
+  .link-btn2 {
+    background-image: url("https://www.lutosa.com/intro-uk/css/1400/link2.jpg");
+  }
+  .link-btn3 {
+    background-image: url("https://www.lutosa.com/intro-uk/css/1400/link3.jpg");
+  }
+  .div-first {
+    height: 723px;
+    background-image: url("https://www.lutosa.com/intro-uk/css/1400/bloc1.jpg");
+    .div-first-sub {
+      padding-left: 20%;
+    }
+  }
+  .div-second {
+    height: 656px;
+    background-image: url("https://www.lutosa.com/intro-uk/css/1400/bloc2.jpg");
+  }
+  .div-third {
+    background-image: url("https://www.lutosa.com/intro-uk/css/1400/bloc3responsive.jpg");
+    height: 1114px;
+  }
+}
