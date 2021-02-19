@@ -6,25 +6,37 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    height:27px;
-    padding: 6px;
-    margin: 14px 4px 0 0;
-    background-repeat: no-repeat;
+    height: 33px;
+    padding-top: 6px;
+    margin-right: 4px;
+    display: block;
+    float: left;
+    &:hover {
+      color: #f89553;
+    }
   }
   .link-btn1 {
+    width: 62px;
     background-image: url("https://www.lutosa.com/intro-uk/css/1400/link1.jpg");
   }
   .link-btn2 {
+    width: 145px;
     background-image: url("https://www.lutosa.com/intro-uk/css/1400/link2.jpg");
   }
   .link-btn3 {
+    width: 95px;
     background-image: url("https://www.lutosa.com/intro-uk/css/1400/link3.jpg");
   }
   .div-first {
     height: 723px;
     background-image: url("https://www.lutosa.com/intro-uk/css/1400/bloc1.jpg");
+    background-position: top bottom;
     .div-first-sub {
-      padding-left: 20%;
+      padding-left: 25%;
+    }
+    p {
+      color: #ab283a;
+      font-size: 12px;
     }
   }
   .div-second {
@@ -34,5 +46,20 @@
   .div-third {
     background-image: url("https://www.lutosa.com/intro-uk/css/1400/bloc3responsive.jpg");
     height: 1114px;
+  }
+  .roue {
+    margin-top: -65px;
+    .roue1 {
+      margin-left: 560px;
+      animation-name: Roule;
+      -webkit-animation-name: Roule;
+      animation-duration: 8s;
+      -webkit-animation-duration: 8s;
+      -moz-animation-duration: 8s;
+      -o-animation-duration: 8s;
+      animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      transform: rotate(360deg);
+    }
   }
 }
